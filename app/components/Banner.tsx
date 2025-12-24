@@ -18,7 +18,7 @@ export default function Banner(): React.JSX.Element {
               <div className="lg:hidden  -top-150 z-10">
                 <div className="relative inline-block ">
                   <Image
-                    src="/assets/arrow.png"
+                    src="/assets/site-arrow-braydensautomations.png"
                     alt="Arrow pointer"
                     width={80}
                     height={80}
@@ -58,7 +58,7 @@ export default function Banner(): React.JSX.Element {
             {/* Desktop: Hello text in original position */}
             <div className="hidden lg:inline-block relative">
               <Image
-                src="/assets/arrow.png"
+                src="/assets/site-arrow-braydensautomations.png"
                 alt="Arrow pointer"
                 width={100}
                 height={100}
