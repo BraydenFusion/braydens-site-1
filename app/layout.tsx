@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+  title: "Brayden Jones - AI Automation Specialist",
   description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
   keywords: [
     "Ibrahim Memon",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+    title: "Brayden Jones - AI Automation Specialist",
     description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
     siteName: "Ibrahim Memon Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+    title: "Brayden Jones - AI Automation Specialist",
     description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
   },
   robots: {

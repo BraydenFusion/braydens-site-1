@@ -77,14 +77,6 @@ export default function Banner(): React.JSX.Element {
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-gray-800 leading-tight">
                 An AI specialist who judges a business by its{" "}
                 <span className="relative inline-block">
-                  <Image 
-                    src="/assets/site-circle-braydensautmations.png" 
-                    alt="Circle" 
-                    width={200} 
-                    height={200} 
-                    className="absolute mt-2" 
-                    style={{ width: "100%", height: "400px", left: "-37px", top: "-73px" }}
-                  />
                   <span className="text-[#00F0FF]">
                     missed calls
                   </span>
