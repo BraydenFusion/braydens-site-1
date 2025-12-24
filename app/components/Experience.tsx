@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 interface ExperienceCard {
   id: number;
@@ -64,14 +63,6 @@ export default function Experience(): React.JSX.Element {
               <p className="text-gray-600 text-sm mb-4">
                 {card.description}
               </p>
-              <Link
-                href="https://ibiimemon.com/lab"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#00F0FF] hover:text-[#00D0E0] font-medium text-sm transition-colors inline-block"
-              >
-                VIEW DETAILS →
-              </Link>
               </div>
 
             </div>
