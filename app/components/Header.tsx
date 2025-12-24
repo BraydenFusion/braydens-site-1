@@ -31,10 +31,10 @@ export default function Header(): React.JSX.Element {
             </li>
             <li className="m-0 p-0">
               <Link 
-                href="#lab" 
+                href="#contact" 
                 className="text-gray-800 hover:text-[#00F0FF] transition-colors text-base font-normal"
               >
-                Lab
+                Contact
               </Link>
             </li>
           </ul>
