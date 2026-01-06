@@ -74,8 +74,8 @@ export default function Banner(): React.JSX.Element {
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
             <div className="">
-              <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-gray-800 leading-tight">
-                An AI specialist who helps local HVAC companies automate the chaos so you can focus on what really matters.
+              <h1 className="text-4xl tracking-tight lg:text-6xl font-semibold text-gray-800 leading-tight">
+                An AI specialist who helps local HVAC companies automate the chaos so you can focus on what <span className="text-[#00F0FF]">really matters</span>.
               </h1>
               <p className="text-md text-gray-700">
                 Because if your leads don&apos;t get answered, what else matters?
