@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function Home(): React.JSX.Element {
@@ -11,6 +12,7 @@ export default function Home(): React.JSX.Element {
       <Banner />
       <Experience />
       <Projects />
+      <Contact />
       <Footer />
     </main>
   );
