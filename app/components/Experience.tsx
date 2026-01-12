@@ -38,7 +38,7 @@ export default function Experience(): React.JSX.Element {
           {experienceCards.map((card) => (
             <div
               key={card.id}
-              className="bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50 backdrop-blur-sm rounded-xl p-6 border-t-3 border-[#00F0FF] hover:shadow-2xl hover:shadow-[#00F0FF]/20"
+              className="bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50 backdrop-blur-sm rounded-xl p-6 border-t-3 border-black hover:shadow-2xl hover:shadow-black/20"
             >
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {card.title}

@@ -67,7 +67,7 @@ export default function Contact() {
         <section id="contact" className="py-14 px-4 sm:px-6 lg:px-8">
             <div className="max-w-screen-xl mx-auto text-gray-600">
                 <div className="max-w-lg mx-auto space-y-3 text-center">
-                    <h3 className="text-[#00F0FF] font-semibold">
+                    <h3 className="text-black font-semibold">
                         Contact
                     </h3>
                     <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -94,7 +94,7 @@ export default function Contact() {
                                     required
                                     value={formData.firstName}
                                     onChange={handleChange}
-                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-[#00F0FF] shadow-sm rounded-lg"
+                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-black shadow-sm rounded-lg"
                                 />
                             </div>
                             <div>
@@ -108,7 +108,7 @@ export default function Contact() {
                                     required
                                     value={formData.lastName}
                                     onChange={handleChange}
-                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-[#00F0FF] shadow-sm rounded-lg"
+                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-black shadow-sm rounded-lg"
                                 />
                             </div>
                         </div>
@@ -123,7 +123,7 @@ export default function Contact() {
                                 required
                                 value={formData.email}
                                 onChange={handleChange}
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-[#00F0FF] shadow-sm rounded-lg"
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-black shadow-sm rounded-lg"
                             />
                         </div>
                         <div>
@@ -151,7 +151,7 @@ export default function Contact() {
                                     required
                                     value={formData.phone}
                                     onChange={handleChange}
-                                    className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-[#00F0FF] shadow-sm rounded-lg"
+                                    className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-black shadow-sm rounded-lg"
                                 />
                             </div>
                         </div>
@@ -165,7 +165,7 @@ export default function Contact() {
                                 required
                                 value={formData.message}
                                 onChange={handleChange}
-                                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-[#00F0FF] shadow-sm rounded-lg"
+                                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-black shadow-sm rounded-lg"
                             ></textarea>
                         </div>
                         {submitStatus === "success" && (
@@ -181,7 +181,7 @@ export default function Contact() {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full px-4 py-2 text-white font-medium bg-[#00F0FF] hover:bg-[#00D0E0] active:bg-[#00F0FF] rounded-lg duration-150 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="w-full px-4 py-2 text-white font-medium bg-black hover:bg-gray-800 active:bg-black rounded-lg duration-150 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                             {isSubmitting ? "Submitting..." : "Submit"}
                         </button>

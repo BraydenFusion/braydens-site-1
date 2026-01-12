@@ -28,7 +28,7 @@ export default function Banner(): React.JSX.Element {
                   <div className="relative">
                     <p className="text-gray-800 text-lg whitespace-nowrap">
                       Hello! I&apos;m{" "}
-                      <span className="text-[#00F0FF]">Brayden Jones</span>
+                      <span className="text-black">Brayden Jones</span>
                     </p>
                   </div>
                   <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-gray-200"></div>
@@ -68,14 +68,14 @@ export default function Banner(): React.JSX.Element {
               <div style={{ bottom: 40, position: "relative" }}>
                 <p className="text-gray-800 text-lg">
                   Hello! I&apos;m{" "}
-                  <span className="text-[#00F0FF]">Brayden Jones</span>
+                  <span className="text-black">Brayden Jones</span>
                 </p>
               </div>
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
             <div className="">
               <h1 className="text-4xl tracking-tight lg:text-6xl font-semibold text-gray-800 leading-tight">
-                An AI specialist who helps local HVAC companies automate the chaos so you can focus on what <span className="text-[#00F0FF]">really matters</span>.
+                An AI specialist who helps local HVAC companies automate the chaos so you can focus on what <span className="text-black">really matters</span>.
               </h1>
               <p className="text-md text-gray-700">
                 I help you capture every opportunity without working more hours.

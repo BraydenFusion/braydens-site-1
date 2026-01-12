@@ -31,7 +31,7 @@ export default function Projects(): React.JSX.Element {
               <div className="relative grid grid-cols-1 gap-8 lg:gap-12 items-center">
                 {/* Text Content */}
                 <div className="lg:max-w-3xl lg:mx-auto">
-                  <p className="text-[#00F0FF] text-lg lg:text-xl mb-2 font-medium">
+                  <p className="text-black text-lg lg:text-xl mb-2 font-medium">
                     Featured Project
                   </p>
                   <h3 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-6">
@@ -52,7 +52,7 @@ export default function Projects(): React.JSX.Element {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-800 hover:text-[#00F0FF] transition-colors duration-200"
+                        className="text-gray-800 hover:text-black transition-colors duration-200"
                         aria-label="Visit project website"
                       >
                         <svg

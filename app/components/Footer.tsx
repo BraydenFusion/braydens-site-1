@@ -14,13 +14,13 @@ export default function Footer(): React.JSX.Element {
           <div className="flex flex-col gap-2 items-center">
             <a
               href="mailto:bsaundersjones@gmail.com"
-              className="text-md text-[#00F0FF] hover:text-[#00D0E0] transition-colors"
+              className="text-md text-black hover:text-gray-800 transition-colors"
             >
               bsaundersjones@gmail.com
             </a>
             <a
               href="tel:5188126266"
-              className="text-md text-[#00F0FF] hover:text-[#00D0E0] transition-colors"
+              className="text-md text-black hover:text-gray-800 transition-colors"
             >
               518‑812‑6266
             </a>
@@ -33,7 +33,7 @@ export default function Footer(): React.JSX.Element {
             href="https://x.com/brayden_only"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 border border-[#00F0FF]/30 hover:border-[#00F0FF]/50 transition-all"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 border border-black/30 hover:border-black/50 transition-all"
             aria-label="X (formerly Twitter)"
           >
             <svg
@@ -48,7 +48,7 @@ export default function Footer(): React.JSX.Element {
             href="https://www.linkedin.com/in/brayden-jones-2947832a7/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 border border-[#00F0FF]/30 hover:border-[#00F0FF]/50 transition-all"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 border border-black/30 hover:border-black/50 transition-all"
             aria-label="LinkedIn"
           >
             <svg

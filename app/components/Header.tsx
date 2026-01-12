@@ -8,7 +8,7 @@ export default function Header(): React.JSX.Element {
         <div className="container mx-auto max-w-6xl flex items-center justify-between h-full">
           <Link 
             href="/" 
-            className="text-2xl font-bold text-gray-800 hover:text-[#00F0FF] transition-colors"
+            className="text-2xl font-bold text-gray-800 hover:text-black transition-colors"
           >
           <Image src="/logo/site-logo-braydensautomations1.png" alt="Logo" width={100} height={100} style={{ width: "auto", height: "auto" }} />
           </Link>
@@ -16,7 +16,7 @@ export default function Header(): React.JSX.Element {
             <li className="m-0 p-0">
               <Link 
                 href="#home" 
-                className="text-gray-800 hover:text-[#00F0FF] transition-colors text-base font-normal"
+                className="text-gray-800 hover:text-black transition-colors text-base font-normal"
               >
                 Home
               </Link>
@@ -24,7 +24,7 @@ export default function Header(): React.JSX.Element {
             <li className="m-0 p-0">
               <Link 
                 href="#experience" 
-                className="text-gray-800 hover:text-[#00F0FF] transition-colors text-base font-normal"
+                className="text-gray-800 hover:text-black transition-colors text-base font-normal"
               >
                 My Work
               </Link>
@@ -32,7 +32,7 @@ export default function Header(): React.JSX.Element {
             <li className="m-0 p-0">
               <Link 
                 href="#contact" 
-                className="text-gray-800 hover:text-[#00F0FF] transition-colors text-base font-normal"
+                className="text-gray-800 hover:text-black transition-colors text-base font-normal"
               >
                 Contact
               </Link>
